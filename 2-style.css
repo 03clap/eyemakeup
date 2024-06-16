@@ -1,0 +1,52 @@
+ 
+ body {
+        font-family: "Work Sans", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        font-style: normal;
+        background-color: #fffaeb;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    .work-sans-serif {
+        font-family: "Work Sans", sans-serif;
+    }
+
+    .korean-text {
+        font-family: "Noto Sans KR", sans-serif;
+        /* 한국어 글꼴 설정 */
+    }
+
+    .english-text {
+        font-family: "Work Sans", sans-serif;
+        /* 영어 글꼴 설정 */
+    }
+
+    /* 네비게이션 영역 */
+    .nav-link:hover,
+    .nav-link.active {
+        color: #3a4161 !important;
+    }
+
+
+    /* 헤더 영역 */
+    header {
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(pages/makeup_1.jpg);
+        background-size: contain;
+        background-position: center top;
+        background-attachment: fixed;
+    }
+    .card-hover {
+        transition: transform 0.2s;
+    }
+    .card-hover:hover {
+        transform: translateY(-10px);
+    }
+    .rounded-circle {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+    }
